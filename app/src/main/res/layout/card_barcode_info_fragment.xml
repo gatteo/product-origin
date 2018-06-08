@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Card Title -->
+    <TextView
+        android:id="@+id/card_product_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/card_product_from"
+        android:textSize="21sp"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_margin="@dimen/margin_card_el_inside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/flag_imageview"/>
+
+    <!-- Flag -->
+    <ImageView
+        android:id="@+id/flag_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintBottom_toTopOf="@id/mapView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_product_from"
+        tools:src="@drawable/ca" />
+
+    <!-- Country -->
+    <TextView
+        android:id="@+id/country_textview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="43sp"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:padding="@dimen/margin_card_el_inside"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-light"
+        app:layout_constraintBottom_toBottomOf="@id/flag_imageview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/flag_imageview"
+        android:background="#89ffffff"
+        tools:text="Canada"
+        android:textColor="#000000"
+        />
+
+    <!-- Map -->
+    <com.google.android.gms.maps.MapView
+
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/country_textview"
+        />
+
+    <!-- Error screen-->
+    <TextView
+        android:id="@+id/error_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/card_error"
+        android:background="@color/colorError"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+
+</android.support.constraint.ConstraintLayout>

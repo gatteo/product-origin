@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_size">40dp</dimen>
+    <dimen name="menu_height">46dp</dimen>
+    <dimen name="card_offscreen">5dp</dimen>
+</resources>

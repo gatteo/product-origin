@@ -1,0 +1,844 @@
+{
+  "codes": [
+    {
+      "id": 0,
+      "contry_name": "Etats-Unis",
+      "marge": 60,
+      "longitude": "113.7390755",
+      "latitude": "36.2080012",
+      "fly": "us"
+    },
+    {
+      "id": 300,
+      "contry_name": "France",
+      "marge": 79,
+      "longitude": "2.0167023",
+      "latitude": "48.8098393",
+      "fly": "fr"
+    },
+    {
+      "id": 380,
+      "contry_name": "Bulgarie",
+      "marge": 0,
+      "longitude": "25.3492553",
+      "latitude": "42.8808083",
+      "fly": "bg"
+    },
+    {
+      "id": 383,
+      "contry_name": "Slovénie",
+      "marge": 0,
+      "longitude": "14.7782539",
+      "latitude": "46.174206",
+      "fly": "si"
+    },
+    {
+      "id": 385,
+      "contry_name": "Croatie",
+      "marge": 0,
+      "longitude": "16.0163416",
+      "latitude": "44.4729272",
+      "fly": "hr"
+    },
+    {
+      "id": 387,
+      "contry_name": "Boznie-Herzégovine",
+      "marge": 0,
+      "longitude": "18.5928726",
+      "latitude": "44.3048477",
+      "fly": "ba"
+    },
+    {
+      "id": 400,
+      "contry_name": "Allemagne",
+      "marge": 40,
+      "longitude": "11.636087",
+      "latitude": "51.5041441",
+      "fly": "de"
+    },
+    {
+      "id": 450,
+      "contry_name": "Japon",
+      "marge": 9,
+      "longitude": "137.1870819",
+      "latitude": "36.138355",
+      "fly": "jp"
+    },
+    {
+      "id": 460,
+      "contry_name": "Russie",
+      "marge": 9,
+      "longitude": "111.8772533",
+      "latitude": "69.087729",
+      "fly": "ru"
+    },
+    {
+      "id": 470,
+      "contry_name": "Kirghizistan",
+      "marge": 0,
+      "longitude": "75.5211961",
+      "latitude": "41.0526962",
+      "fly": "kg"
+    },
+    {
+      "id": 471,
+      "contry_name": "Taïwan",
+      "marge": 0,
+      "longitude": "121.2924258",
+      "latitude": "23.9292438",
+      "fly": "tw"
+    },
+    {
+      "id": 474,
+      "contry_name": "Estonie",
+      "marge": 0,
+      "longitude": "25.89747",
+      "latitude": "58.6424326",
+      "fly": "ee"
+    },
+    {
+      "id": 475,
+      "contry_name": "Lettonie",
+      "marge": 0,
+      "longitude": "25.7032065",
+      "latitude": "56.7156607",
+      "fly": "lv"
+    },
+    {
+      "id": 476,
+      "contry_name": "Azerbaïdjan",
+      "marge": 0,
+      "longitude": "48.2611065",
+      "latitude": "40.2900349",
+      "fly": "az"
+    },
+    {
+      "id": 477,
+      "contry_name": "Lituanie",
+      "marge": 0,
+      "longitude": "24.4977458",
+      "latitude": "55.3721244",
+      "fly": "lt"
+    },
+    {
+      "id": 478,
+      "contry_name": "Ouzbékistan",
+      "marge": 0,
+      "longitude": "64.5870186",
+      "latitude": "42.4877866",
+      "fly": "uz"
+    },
+    {
+      "id": 479,
+      "contry_name": "Sri Lanka",
+      "marge": 0,
+      "longitude": "81.3227403",
+      "latitude": "8.1758574",
+      "fly": "lk"
+    },
+    {
+      "id": 480,
+      "contry_name": "Philippines",
+      "marge": 0,
+      "longitude": "125.788055",
+      "latitude": "12.7161234",
+      "fly": "ph"
+    },
+    {
+      "id": 481,
+      "contry_name": "Biélorussie",
+      "marge": 0,
+      "longitude": "29.028772",
+      "latitude": "53.8020801",
+      "fly": "by"
+    },
+    {
+      "id": 482,
+      "contry_name": "Ukraine",
+      "marge": 0,
+      "longitude": "30.3422017",
+      "latitude": "8.5726265",
+      "fly": "ua"
+    },
+    {
+      "id": 484,
+      "contry_name": "Moldavie",
+      "marge": 0,
+      "longitude": "28.8491568",
+      "latitude": "47.2650323",
+      "fly": "md"
+    },
+    {
+      "id": 485,
+      "contry_name": "Arménie",
+      "marge": 0,
+      "longitude": "45.2323868",
+      "latitude": "40.3462984",
+      "fly": "am"
+    },
+    {
+      "id": 486,
+      "contry_name": "Géorgie",
+      "marge": 0,
+      "longitude": "44.1052047",
+      "latitude": "42.6069442",
+      "fly": "ge"
+    },
+    {
+      "id": 487,
+      "contry_name": "Kazakhstan",
+      "marge": 0,
+      "longitude": "70.1992726",
+      "latitude": "48.3724258",
+      "fly": "kz"
+    },
+    {
+      "id": 489,
+      "contry_name": "Hong Kong",
+      "marge": 0,
+      "longitude": "114.1292095",
+      "latitude": "22.3752168",
+      "fly": "hk"
+    },
+    {
+      "id": 490,
+      "contry_name": "Japon",
+      "marge": 9,
+      "longitude": "140.307199",
+      "latitude": "36.5277727",
+      "fly": "jp"
+    },
+    {
+      "id": 500,
+      "contry_name": "Royaume-Uni",
+      "marge": 9,
+      "longitude": "-1.326567",
+      "latitude": "55.408274",
+      "fly": "gb"
+    },
+    {
+      "id": 520,
+      "contry_name": "Grèce",
+      "marge": 0,
+      "longitude": "23.8225089",
+      "latitude": "39.1328425",
+      "fly": "gr"
+    },
+    {
+      "id": 528,
+      "contry_name": "Liban",
+      "marge": 0,
+      "longitude": "36.467306",
+      "latitude": "33.8046012",
+      "fly": "lb"
+    },
+    {
+      "id": 529,
+      "contry_name": "Chypre",
+      "marge": 0,
+      "longitude": "33.1676482",
+      "latitude": "35.168459",
+      "fly": "cy"
+    },
+    {
+      "id": 530,
+      "contry_name": "Albanie",
+      "marge": 0,
+      "longitude": "20.4878572",
+      "latitude": "41.2634024",
+      "fly": "al"
+    },
+    {
+      "id": 531,
+      "contry_name": "Macédoine",
+      "marge": 0,
+      "longitude": "22.662144",
+      "latitude": "41.5520061",
+      "fly": "mk"
+    },
+    {
+      "id": 535,
+      "contry_name": "Malte",
+      "marge": 0,
+      "longitude": "14.3985546",
+      "latitude": "35.9563792",
+      "fly": "mt"
+    },
+    {
+      "id": 539,
+      "contry_name": "Irlande",
+      "marge": 0,
+      "longitude": "-7.9929393",
+      "latitude": "53.0051358",
+      "fly": "ie"
+    },
+    {
+      "id": 540,
+      "contry_name": "Belgique & Luxembourg",
+      "marge": 9,
+      "longitude": "5.0530603",
+      "latitude": "50.4922009",
+      "fly": "be"
+    },
+    {
+      "id": 560,
+      "contry_name": "Portugal",
+      "marge": 0,
+      "longitude": "-7.3067711",
+      "latitude": "39.7807992",
+      "fly": "pt"
+    },
+    {
+      "id": 569,
+      "contry_name": "Islande",
+      "marge": 0,
+      "longitude": ",-17.9809791",
+      "latitude": "65.0314099",
+      "fly": "is"
+    },
+    {
+      "id": 570,
+      "contry_name": "Danemark",
+      "marge": 9,
+      "longitude": "10.9370063",
+      "latitude": "56.116814",
+      "fly": "dk"
+    },
+    {
+      "id": 590,
+      "contry_name": "Pologne",
+      "marge": 0,
+      "longitude": "20.5803318",
+      "latitude": "52.6408279",
+      "fly": "pl"
+    },
+    {
+      "id": 594,
+      "contry_name": "Roumanie",
+      "marge": 0,
+      "longitude": "25.6179576",
+      "latitude": "45.6877196",
+      "fly": "ro"
+    },
+    {
+      "id": 599,
+      "contry_name": "Hongrie",
+      "marge": 0,
+      "longitude": "18.8336502",
+      "latitude": "47.2512419",
+      "fly": "hu"
+    },
+    {
+      "id": 600,
+      "contry_name": "Afrique du Sud",
+      "marge": 1,
+      "longitude": "29.0516008",
+      "latitude": "-29.3369243",
+      "fly": "za"
+    },
+    {
+      "id": 603,
+      "contry_name": "Ghana",
+      "marge": 0,
+      "longitude": "-0.9136282",
+      "latitude": "8.4185218",
+      "fly": "gh"
+    },
+    {
+      "id": 608,
+      "contry_name": "Bahrein",
+      "marge": 0,
+      "longitude": "50.674236",
+      "latitude": "26.0437177",
+      "fly": "bh"
+    },
+    {
+      "id": 609,
+      "contry_name": "ële Maurice",
+      "marge": 0,
+      "longitude": "58.0537067",
+      "latitude": "-20.2443287",
+      "fly": "mu"
+    },
+    {
+      "id": 611,
+      "contry_name": "Maroc",
+      "marge": 0,
+      "longitude": "-6.8550933",
+      "latitude": "30.3603891",
+      "fly": "ma"
+    },
+    {
+      "id": 613,
+      "contry_name": "Algérie",
+      "marge": 0,
+      "longitude": "2.7047212",
+      "latitude": "27.6172023",
+      "fly": "dz"
+    },
+    {
+      "id": 616,
+      "contry_name": "Kenya",
+      "marge": 0,
+      "longitude": "39.6042951",
+      "latitude": "0.0445002",
+      "fly": "ke"
+    },
+    {
+      "id": 618,
+      "contry_name": "Cote d’Ivoire",
+      "marge": 0,
+      "longitude": "-5.540387",
+      "latitude": "7.9478106",
+      "fly": "ci"
+    },
+    {
+      "id": 619,
+      "contry_name": "Tunisie",
+      "marge": 0,
+      "longitude": "10.4282927",
+      "latitude": "33.8212693",
+      "fly": "tn"
+    },
+    {
+      "id": 621,
+      "contry_name": "Syrie",
+      "marge": 0,
+      "longitude": "38.6152548",
+      "latitude": "34.8574455",
+      "fly": "sy"
+    },
+    {
+      "id": 622,
+      "contry_name": "Egypte",
+      "marge": 0,
+      "longitude": "31.9245796",
+      "latitude": "26.7840461",
+      "fly": "eg"
+    },
+    {
+      "id": 624,
+      "contry_name": "Libye",
+      "marge": 0,
+      "longitude": "18.525267",
+      "latitude": "28.4341392",
+      "fly": "ly"
+    },
+    {
+      "id": 625,
+      "contry_name": "Jordanie",
+      "marge": 0,
+      "longitude": "37.3245615",
+      "latitude": "31.1569972",
+      "fly": "jo"
+    },
+    {
+      "id": 626,
+      "contry_name": "Iran",
+      "marge": 0,
+      "longitude": "55.3902853",
+      "latitude": "32.359489",
+      "fly": "ir"
+    },
+    {
+      "id": 627,
+      "contry_name": "Koweit",
+      "marge": 0,
+      "longitude": "47.9963792",
+      "latitude": "29.5438303",
+      "fly": "kw"
+    },
+    {
+      "id": 628,
+      "contry_name": "Arabie Saoudite",
+      "marge": 0,
+      "longitude": "46.5342073",
+      "latitude": "24.9798047",
+      "fly": "sa"
+    },
+    {
+      "id": 629,
+      "contry_name": "Emirats Arabes Unis",
+      "marge": 0,
+      "longitude": "54.8372725",
+      "latitude": "24.9232915",
+      "fly": "ae"
+    },
+    {
+      "id": 640,
+      "contry_name": "Finlande",
+      "marge": 9,
+      "longitude": "28.2512226",
+      "latitude": "65.4416862",
+      "fly": "fi"
+    },
+    {
+      "id": 690,
+      "contry_name": "Chine",
+      "marge": 5,
+      "longitude": "106.9495218",
+      "latitude": "37.6835143",
+      "fly": "cn"
+    },
+    {
+      "id": 700,
+      "contry_name": "Norvège",
+      "marge": 9,
+      "longitude": "22.4226575",
+      "latitude": "67.2922016",
+      "fly": "no"
+    },
+    {
+      "id": 729,
+      "contry_name": "Israel",
+      "marge": 0,
+      "longitude": "35.1448016",
+      "latitude": "31.8319123,",
+      "fly": "il"
+    },
+    {
+      "id": 730,
+      "contry_name": "Suède",
+      "marge": 9,
+      "longitude": "19.0774597",
+      "latitude": "62.8613114",
+      "fly": "se"
+    },
+    {
+      "id": 740,
+      "contry_name": "Guatemala",
+      "marge": 0,
+      "longitude": "-89.5867212",
+      "latitude": "15.9565846",
+      "fly": "gt"
+    },
+    {
+      "id": 741,
+      "contry_name": "Salvador",
+      "marge": 0,
+      "longitude": "-88.6590062",
+      "latitude": "13.7364272",
+      "fly": "sv"
+    },
+    {
+      "id": 742,
+      "contry_name": "Honduras",
+      "marge": 0,
+      "longitude": "-86.6301953",
+      "latitude": "15.3974484",
+      "fly": "hn"
+    },
+    {
+      "id": 743,
+      "contry_name": "Nicaragua",
+      "marge": 0,
+      "longitude": "-85.2547708",
+      "latitude": "13.0951425",
+      "fly": "ni"
+    },
+    {
+      "id": 744,
+      "contry_name": "Costa Rica",
+      "marge": 0,
+      "longitude": ",-84.1452016",
+      "latitude": "9.8341156",
+      "fly": "cr"
+    },
+    {
+      "id": 745,
+      "contry_name": "Panama",
+      "marge": 0,
+      "longitude": "-80.1201649",
+      "latitude": "8.9078873",
+      "fly": "pa"
+    },
+    {
+      "id": 746,
+      "contry_name": "République Dominicaine",
+      "marge": 0,
+      "longitude": "-70.0941847",
+      "latitude": "19.0615075",
+      "fly": "doo"
+    },
+    {
+      "id": 750,
+      "contry_name": "Mexique",
+      "marge": 0,
+      "longitude": "-102.7822309",
+      "latitude": "25.4062755",
+      "fly": "mx"
+    },
+    {
+      "id": 754,
+      "contry_name": "Canada",
+      "marge": 1,
+      "longitude": "-90.6184165",
+      "latitude": "69.6985703",
+      "fly": "ca"
+    },
+    {
+      "id": 759,
+      "contry_name": "Venezuela",
+      "marge": 0,
+      "longitude": "-65.094238",
+      "latitude": "6.7458894",
+      "fly": "ve"
+    },
+    {
+      "id": 760,
+      "contry_name": "Suisse",
+      "marge": 9,
+      "longitude": "8.2421028",
+      "latitude": "47.0038949",
+      "fly": "ch"
+    },
+    {
+      "id": 770,
+      "contry_name": "Colombie",
+      "marge": 0,
+      "longitude": "-71.7466798",
+      "latitude": "5.8601775",
+      "fly": "co"
+    },
+    {
+      "id": 773,
+      "contry_name": "Uruguay",
+      "marge": 0,
+      "longitude": "-55.627792",
+      "latitude": "-32.3622574",
+      "fly": "uy"
+    },
+    {
+      "id": 775,
+      "contry_name": "Pérou",
+      "marge": 0,
+      "longitude": "-73.6720191",
+      "latitude": "-5.1587915",
+      "fly": "pe"
+    },
+    {
+      "id": 779,
+      "contry_name": "Argentine",
+      "marge": 0,
+      "longitude": "-62.8499246",
+      "latitude": "-38.8205396",
+      "fly": "ar"
+    },
+    {
+      "id": 780,
+      "contry_name": "Chili",
+      "marge": 0,
+      "longitude": "-65.0748961",
+      "latitude": "-31.9298089",
+      "fly": "cl"
+    },
+    {
+      "id": 784,
+      "contry_name": "Paraguay",
+      "marge": 0,
+      "longitude": "-56.8611973",
+      "latitude": "-22.5166877",
+      "fly": "py"
+    },
+    {
+      "id": 786,
+      "contry_name": "Equateur",
+      "marge": 0,
+      "longitude": "-77.767236",
+      "latitude": "-1.6597441",
+      "fly": "ec"
+    },
+    {
+      "id": 789,
+      "contry_name": "Brésil",
+      "marge": 0,
+      "longitude": "-48.2944916",
+      "latitude": "-11.4793816",
+      "fly": "br"
+    },
+    {
+      "id": 790,
+      "contry_name": "Brésil",
+      "marge": 0,
+      "longitude": "-48.2944916",
+      "latitude": "-11.4793816",
+      "fly": "br"
+    },
+    {
+      "id": 800,
+      "contry_name": "Italie",
+      "marge": 39,
+      "longitude": "15.9283702",
+      "latitude": "44.2086676",
+      "fly": "it"
+    },
+    {
+      "id": 840,
+      "contry_name": "Espagne",
+      "marge": 9,
+      "longitude": "-3.6560759",
+      "latitude": "40.4735671",
+      "fly": "es"
+    },
+    {
+      "id": 850,
+      "contry_name": "Cuba",
+      "marge": 0,
+      "longitude": "-79.6011203",
+      "latitude": "23.1980555",
+      "fly": "cu"
+    },
+    {
+      "id": 858,
+      "contry_name": "Slovaquie",
+      "marge": 0,
+      "longitude": "20.1007636",
+      "latitude": "49.0050965",
+      "fly": "sk"
+    },
+    {
+      "id": 859,
+      "contry_name": "République tchèque",
+      "marge": 0,
+      "longitude": "15.3084123",
+      "latitude": "49.9732687",
+      "fly": "cz"
+    },
+    {
+      "id": 860,
+      "contry_name": "Serbie Monténégro",
+      "marge": 0,
+      "longitude": "20.9532657",
+      "latitude": "43.8886989",
+      "fly": "sbm"
+    },
+    {
+      "id": 865,
+      "contry_name": "Mogolie",
+      "marge": 0,
+      "longitude": "105.358219",
+      "latitude": "47.7973603",
+      "fly": "mn"
+    },
+    {
+      "id": 867,
+      "contry_name": "Corée du Nord",
+      "marge": 0,
+      "longitude": "129.4046273",
+      "latitude": "40.4564584",
+      "fly": "kp"
+    },
+    {
+      "id": 869,
+      "contry_name": "Turquie",
+      "marge": 0,
+      "longitude": "36.9206559",
+      "latitude": "39.9711586",
+      "fly": "tr"
+    },
+    {
+      "id": 870,
+      "contry_name": "Pays-Bas",
+      "marge": 9,
+      "longitude": "5.3986934",
+      "latitude": "52.1580424",
+      "fly": "nl"
+    },
+    {
+      "id": 880,
+      "contry_name": "Corée du Sud",
+      "marge": 0,
+      "longitude": "128.3952742",
+      "latitude": "36.8127993",
+      "fly": "kr"
+    },
+    {
+      "id": 884,
+      "contry_name": "Cambodge",
+      "marge": 0,
+      "longitude": "105.7569114",
+      "latitude": "12.7306926",
+      "fly": "kh"
+    },
+    {
+      "id": 885,
+      "contry_name": "Thailande",
+      "marge": 0,
+      "longitude": "103.3832025",
+      "latitude": "14.2066351",
+      "fly": "th"
+    },
+    {
+      "id": 888,
+      "contry_name": "Singapour",
+      "marge": 0,
+      "longitude": "104.2004317",
+      "latitude": "1.3535758",
+      "fly": "sg"
+    },
+    {
+      "id": 890,
+      "contry_name": "Inde",
+      "marge": 0,
+      "longitude": "83.8732196",
+      "latitude": "20.8058427",
+      "fly": "in"
+    },
+    {
+      "id": 893,
+      "contry_name": "Vietnam",
+      "marge": 0,
+      "longitude": "107.1760286",
+      "latitude": "15.7574065",
+      "fly": "vn"
+    },
+    {
+      "id": 899,
+      "contry_name": "Indonésie",
+      "marge": 0,
+      "longitude": "127.8092311",
+      "latitude": "-0.8263037",
+      "fly": "id"
+    },
+    {
+      "id": 900,
+      "contry_name": "Autriche",
+      "marge": 19,
+      "longitude": "14.8050567",
+      "latitude": "47.6376084",
+      "fly": "at"
+    },
+    {
+      "id": 930,
+      "contry_name": "Australie",
+      "marge": 9,
+      "longitude": "150.87048",
+      "latitude": "-23.5878542",
+      "fly": "au"
+    },
+    {
+      "id": 940,
+      "contry_name": "Nouvelle-Zélande",
+      "marge": 9,
+      "longitude": "175.3766036",
+      "latitude": "-43.5085021",
+      "fly": "nz"
+    },
+    {
+      "id": 955,
+      "contry_name": "Malaisie",
+      "marge": 0,
+      "longitude": "111.4170759",
+      "latitude": "3.8261591",
+      "fly": "my"
+    },
+    {
+      "id": 958,
+      "contry_name": "Macao",
+      "marge": 0,
+      "longitude": "113.5728375",
+      "latitude": "22.1829686",
+      "fly": "mo"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Product Origin</string>
+
+    <string name="top_title_no_card">Place barcode in frame to scan it</string>
+    <string name="top_title_yes_card">Tap here to scan again</string>
+
+    <string name="card_product_from">This product was made in: </string>
+    <string name="card_map_marker">Product origin</string>
+    <string name="card_error">Couldn\'t find product origin</string>
+
+    <string name="description_torch">Click to enable torch and help recognition</string>
+    <string name="description_keyboard">Insert product code via keyboard</string>
+
+    <string name="credits_description">19 years old, polyglot programmer and problem solver based in Turin, Italy.
+        Yes i develop android apps</string>
+    <string name="credits_mail">mikwee1@gmail.com</string>
+    <string name="credits_name">Matteo Giardino (Mikwee)</string>
+    <string name="credits_title">Project developed by</string>
+    <string name="credits_phone">+39 3457372064</string>
+
+    <string name="dialog_insert_code">Insert barcode</string>
+</resources>

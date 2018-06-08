@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Image me -->
+    <ImageView
+        android:id="@+id/my_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/me_portfolio"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- title -->
+    <TextView
+        android:id="@+id/credits_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/credits_title"
+        android:textSize="29sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_photo" />
+
+    <!--separator -->
+    <View
+        android:id="@+id/sep1"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="@+id/credits_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/credits_title" />
+
+    <!-- My name -->
+    <TextView
+        android:id="@+id/credits_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/credits_name"
+        android:textSize="29sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sep1" />
+
+    <!-- My description -->
+    <TextView
+        android:id="@+id/personal_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:text="@string/credits_description"
+        app:layout_constraintEnd_toEndOf="@+id/credits_name"
+        app:layout_constraintStart_toStartOf="@+id/credits_name"
+        app:layout_constraintTop_toBottomOf="@id/credits_name" />
+
+    <!-- My email -->
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_email"
+        android:gravity="center"
+        android:text="@string/credits_mail"
+        app:layout_constraintStart_toStartOf="@+id/personal_info"
+        app:layout_constraintTop_toBottomOf="@id/personal_info" />
+
+    <!-- My phone -->
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_phone_black"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_phone_black"
+        android:gravity="center"
+        android:text="@string/credits_phone"
+        app:layout_constraintStart_toStartOf="@+id/personal_info"
+        app:layout_constraintTop_toBottomOf="@id/email" />
+
+
+</android.support.constraint.ConstraintLayout>
